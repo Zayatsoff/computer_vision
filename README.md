@@ -13,11 +13,19 @@
 ## Simple Face Processing
 ### Facial Landmarks
 [*Link to facial_landmarks.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/facial_landmarks.ipynb)
-<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="500">
-<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="500">
+
+<p float="left">
+  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="100" />
+  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="100" />
+</p>
+
 ### Facial Morphing
 [*Link to face_morphing.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/face_morphing.ipynb)
-<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/face_morphing.png" width="500">
+
+<p float="left">
+<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/face_morphing.png" width="100">
+</p>
+
 ## OpenCV Fundamentals
 *Studying the fundamentals of OpenCV*
 ### Part 1
