@@ -1,6 +1,8 @@
 # Computer Vision With OpenCV 
 - [Computer Vision With OpenCV](#computer-vision-with-opencv)
   - [Simple Face Processing](#simple-face-processing)
+    - [Facial Landmarks](#facial-landmarks)
+    - [Facial Morphing](#facial-morphing)
   - [OpenCV Fundamentals](#opencv-fundamentals)
     - [Part 1](#part-1)
     - [Part 2](#part-2)
@@ -9,8 +11,15 @@
     - [Sources](#sources)
 
 ## Simple Face Processing
-
+### Facial Landmarks
+[*Link to facial_landmarks.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/facial_landmarks.ipynb)
+<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="500">
+<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="500">
+### Facial Morphing
+[*Link to face_morphing.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/face_morphing.ipynb)
+<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/face_morphing.png" width="500">
 ## OpenCV Fundamentals
+*Studying the fundamentals of OpenCV*
 ### Part 1
 [*Link to opencv_fundamentals_1.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/opencv_fundamentals_1.ipynb)
 - Display Image
