@@ -16,7 +16,7 @@
 
 <p float="left">
   <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="200" />
-  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="100" />
+  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="200" />
 </p>
 
 ### Facial Morphing
