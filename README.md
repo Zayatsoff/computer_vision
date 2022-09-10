@@ -15,7 +15,7 @@
 [*Link to facial_landmarks.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/facial_landmarks.ipynb)
 
 <p float="left">
-  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="100" />
+  <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="200" />
   <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/dwayne_landmarks.png" width="100" />
 </p>
 
@@ -23,7 +23,7 @@
 [*Link to face_morphing.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/face_morphing.ipynb)
 
 <p float="left">
-<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/face_morphing.png" width="100">
+<img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/face_morphing.png" width="300">
 </p>
 
 ## OpenCV Fundamentals
