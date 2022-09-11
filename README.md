@@ -20,6 +20,7 @@
   <img src="https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/results/face_detection_result.webp" width="200" />
 </p>
 
+![Ttest](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/results/face_detection_result.webp)
 
 
 ## Simple Face Processing
