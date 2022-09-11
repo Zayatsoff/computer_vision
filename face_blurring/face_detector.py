@@ -42,13 +42,12 @@ class FaceDetector(object):
 
     def _blur(self, frame, boxes):
         """
-        Blurs found faces 
+        Blurs found faces
         """
         # Draw Gaussian Blur
         for box in boxes:
             box = box.astype("int")
             blurred = cv2.blur(frame[box[1] : box[3], box[0] : box[2]], (20, 20))
-            print(blurred)
             frame[box[1] : box[3], box[0] : box[2]] = blurred
             return frame
 
