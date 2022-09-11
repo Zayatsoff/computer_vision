@@ -1,8 +1,10 @@
 import cv2
 from facenet_pytorch import MTCNN
+import numpy as np
 
 WEBCAM = False
 VIDEO_SOURCE = "face_blurring\sample.mp4"
+BLUR = True
 
 
 class FaceDetector(object):
@@ -38,11 +40,22 @@ class FaceDetector(object):
             for i in range(5):
                 cv2.circle(frame, tuple(ld[i]), 5, (255, 0, 0), -1)
 
-    def run(
-        self,
-        live=False,
-        filename=r"face_blurring\sample.mp4",
-    ):
+    def _blur(self, frame, boxes):
+        """
+        Blurs found faces 
+        """
+        # Draw Gaussian Blur
+        for box in boxes:
+            box = box.astype("int")
+            blurred = cv2.blur(frame[box[1] : box[3], box[0] : box[2]], (20, 20))
+            print(blurred)
+            frame[box[1] : box[3], box[0] : box[2]] = blurred
+            return frame
+
+    def run(self, live=False, filename=r"face_blurring\sample.mp4", blur=False):
+        """
+        Begin the facial detection and/or blur
+        """
         if live:
             cap = cv2.VideoCapture(0)
         else:
@@ -52,7 +65,10 @@ class FaceDetector(object):
             ret, frame = cap.read()
             try:
                 boxes, probs, landmarks = self.mtcnn.detect(frame, landmarks=True)
-                self._draw(frame, boxes, probs, landmarks)
+                if blur:
+                    frame = self._blur(frame, boxes)
+                else:
+                    self._draw(frame, boxes, probs, landmarks)
             except:
                 print("No faces found.")
                 pass
@@ -66,4 +82,4 @@ class FaceDetector(object):
 
 mtcnn = MTCNN()
 detector = FaceDetector(mtcnn)
-detector.run(WEBCAM, VIDEO_SOURCE)
+detector.run(WEBCAM, VIDEO_SOURCE, BLUR)
