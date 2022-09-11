@@ -10,7 +10,7 @@
     - [Part 2](#part-2)
     - [Part 3](#part-3)
     - [Part 4](#part-4)
-    - [Sources](#sources)
+  - [Sources](#sources)
 
 
 ## Facial Blurring in Video/Webcam
@@ -72,11 +72,14 @@
 - Contour Detection and Shape Detection
 - Colour Detection
 - Object Replacing in 2D Images
-### Sources
-| File name                                                                                                         | Link                                                                                                                    | Website                      | User                    |
-| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------- | ----------------------- |
-| [sample_image.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/sample_image.jpg)   | [Link](https://unsplash.com/photos/JxaDJ4fDq18)                                                                         | Unsplash                     | Rowell Heria            |
-| [sample_image2.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/sample_image2.jpg) | [Link](https://uxdesign.cc/psychology-of-shapes-in-design-how-different-shapes-can-affect-people-behavior-13cace04ce1e) | uxdesign.cc \ Glovory Design | Rafika Aulia Rahma Sari |
-| [colour.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/colour.jpg)               | [Link](https://dreamlight.com/tag/rec-2020-color-profile/)                                                              | DreamLight                   | Michael Scaramozzino    |
+## Sources
+| File name                                                                                                         | Link                                                                                                                    | Website                      | User                                                                        |
+| ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------- |
+| [sample_image.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/sample_image.jpg)   | [Link](https://unsplash.com/photos/JxaDJ4fDq18)                                                                         | Unsplash                     | Rowell Heria                                                                |
+| [sample_image2.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/sample_image2.jpg) | [Link](https://uxdesign.cc/psychology-of-shapes-in-design-how-different-shapes-can-affect-people-behavior-13cace04ce1e) | uxdesign.cc \ Glovory Design | Rafika Aulia Rahma Sari                                                     |
+| [colour.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/opencv_fundamentals/colour.jpg)               | [Link](https://dreamlight.com/tag/rec-2020-color-profile/)                                                              | DreamLight                   | Michael Scaramozzino                                                        |
+| [img_01.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/source/img_01.JPG)   | [Link](https://www.biography.com/news/dwayne-johnson-the-rock-facts)                                                    | Biography.com                | Art Streiber/NBCU Photo Bank/NBCUniversal via Getty Images via Getty Images |
+| [img_02.jpg](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/source/img_02.JPG)   | [Link](https://www.biography.com/actor/robert-downey-jr)                                                                | Biography.com                | N/A                                                                         |
+| [sample.mp4](https://github.com/Zayatsoff/computer_vision/blob/main/face_blurring/sample.mp4)                     | [Link](https://www.youtube.com/watch?v=3J7JSZ2Oik8)                                                                     | YouTube                      | CBC News                                                                    |
 
 
