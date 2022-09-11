@@ -2,6 +2,7 @@
 - [Computer Vision With OpenCV](#computer-vision-with-opencv)
   - [Facial Blurring in Video/Webcam](#facial-blurring-in-videowebcam)
     - [Facial Detection in Video/Webcam](#facial-detection-in-videowebcam)
+    - [Facial Blur in Video/Webcam](#facial-blur-in-videowebcam)
   - [Simple Face Processing](#simple-face-processing)
     - [Facial Landmarks](#facial-landmarks)
     - [Facial Morphing](#facial-morphing)
@@ -18,6 +19,12 @@
 [*Link to face_detector.py*](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/face_detector.py)
 <p float="left">
   <img src="https://raw.githubusercontent.com/Zayatsoff/computer_vision/main/face_blurring/results/face_detection_result.webp" width="200" />
+</p>
+
+### Facial Blur in Video/Webcam
+[*Link to face_detector.py*](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/face_detector.py)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/Zayatsoff/computer_vision/main/face_blurring/results/face_blurring_result.webp" width="200" />
 </p>
 
 ## Simple Face Processing
