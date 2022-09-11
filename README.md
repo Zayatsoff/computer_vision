@@ -17,11 +17,8 @@
 ### Facial Detection in Video/Webcam
 [*Link to face_detector.py*](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/face_detector.py)
 <p float="left">
-  <img src="https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/results/face_detection_result.webp" width="200" />
+  <img src="https://raw.githubusercontent.com/Zayatsoff/computer_vision/main/face_blurring/results/face_detection_result.webp" width="200" />
 </p>
-
-![Ttest](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/results/face_detection_result.webp)
-
 
 ## Simple Face Processing
 ### Facial Landmarks
