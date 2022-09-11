@@ -1,6 +1,9 @@
 import cv2
 from facenet_pytorch import MTCNN
 
+WEBCAM = False
+VIDEO_SOURCE = "face_blurring\sample.mp4"
+
 
 class FaceDetector(object):
     """
@@ -17,6 +20,8 @@ class FaceDetector(object):
 
         for box, prob, ld in zip(boxes, probs, landmarks):
             # Draw box
+            box = box.astype("int")
+            ld = ld.astype("int")
             cv2.rectangle(frame, (box[0], box[1]), (box[2], box[3]), (0, 0, 255), 4)
             # Draw probability
             cv2.putText(
@@ -24,17 +29,24 @@ class FaceDetector(object):
                 str(prob),
                 (box[2], box[3]),
                 cv2.FONT_HERSHEY_DUPLEX,
-                9,
+                0.5,
                 (0, 0, 255),
-                2,
+                1,
                 cv2.LINE_AA,
             )
             # Draw landmarks
             for i in range(5):
-                cv2.circle(frame, tuple(ld[i]), 5, (255, 0, 0))
+                cv2.circle(frame, tuple(ld[i]), 5, (255, 0, 0), -1)
 
-    def run(self):
-        cap = cv2.VideoCapture(0)
+    def run(
+        self,
+        live=False,
+        filename=r"face_blurring\sample.mp4",
+    ):
+        if live:
+            cap = cv2.VideoCapture(0)
+        else:
+            cap = cv2.VideoCapture(filename)
 
         while True:
             ret, frame = cap.read()
@@ -54,4 +66,4 @@ class FaceDetector(object):
 
 mtcnn = MTCNN()
 detector = FaceDetector(mtcnn)
-detector.run()
+detector.run(WEBCAM, VIDEO_SOURCE)
