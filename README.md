@@ -17,6 +17,8 @@
 ## Facial Blurring in Video/Webcam
 ### Facial Detection in Video/Webcam
 [*Link to face_detector.py*](https://github.com/Zayatsoff/computer_vision/tree/main/face_blurring/face_detector.py)
+
+MTCNN via [facenet_pytorch](https://github.com/timesler/facenet-pytorch).
 <p float="left">
   <img src="https://raw.githubusercontent.com/Zayatsoff/computer_vision/main/face_blurring/results/face_detection_result.webp" width="200" />
 </p>
@@ -30,7 +32,6 @@
 ## Simple Face Processing
 ### Facial Landmarks
 [*Link to facial_landmarks.ipynb*](https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/facial_landmarks.ipynb)
-MTCNN via [facenet_pytorch](https://github.com/timesler/facenet-pytorch).
 
 <p float="left">
   <img src="https://github.com/Zayatsoff/computer_vision/blob/main/facial_processing/images/downey_landmarks.png" width="200" />
